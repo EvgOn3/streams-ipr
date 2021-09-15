@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "lib": [
+      "ES2019"
+    ],
+    "module": "commonjs",
+    "target": "ES2019",
+    "allowJs": false,
+    "baseUrl": "streams-ipr/src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build",
+    "./_templates"
+  ]
+}
